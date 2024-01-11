@@ -1,3 +1,15 @@
+// DROPDOWN MENU
+document.querySelector('.menu').addEventListener('click', () => {
+
+    document.querySelectorAll('.target').forEach((item) => {
+        item.classList.toggle('change')
+    })
+
+})
+
+
+
+// ICONS SLIDESHOW
 const icons = document.querySelectorAll('.section-1-icons i')
 let i = 1
 
